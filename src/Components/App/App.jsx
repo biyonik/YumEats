@@ -1,8 +1,11 @@
+import TopNav from "../TopNavComponent/TopNav.jsx";
+import Featured from "../FeaturedComponent/Featured.jsx";
+
 function App() {
     return (
         <div>
-            <h2>YumEats App</h2>
-            <button>Hello</button>
+            <TopNav />
+            <Featured />
         </div>
     )
 }
